@@ -1,0 +1,10 @@
+The contents of this directory need to be added to the computer that
+controls a Pioneer 2 AT robot.
+
+The code uses the Mobile Robots's Library to the ARIA robot, Aria 2.9.0 which
+allows an external computer to connect to the robot via serial port. After downloading the
+library you will need to compile the GalateiaControl.cpp and execute it on the
+console.
+
+The execution will make the robot waits until a client connects allowing the client
+send motion commands that can be checked on the source code.
